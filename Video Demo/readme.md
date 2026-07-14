@@ -1,6 +1,62 @@
-# 🛕 DarshanEase – Application Screenshots
+# 🎬 Video Demonstration
 
-This folder contains screenshots demonstrating the workflow and key features of the **DarshanEase – MERN Stack Temple Darshan Ticket Booking System**.
+This folder contains the demonstration video for the **DarshanEase – MERN Stack Temple Darshan Ticket Booking System**.
+
+---
+
+## 📖 About the Demo
+
+The demonstration video provides a complete walkthrough of the **DarshanEase** application from a devotee's, organizer's, and administrator's perspective. It showcases the complete workflow of the online temple darshan ticket booking system and demonstrates how different modules interact to provide a seamless booking experience.
+
+Unlike static screenshots, the video presents the application in real time with a voice-over explanation, making it easier to understand the purpose and functionality of each module.
+
+---
+
+## 🎥 Demonstrated Workflow
+
+The demonstration includes:
+
+- Application launch
+- User registration
+- User login and authentication
+- Home page navigation
+- Browse available temples
+- View temple information
+- Select darshan date and time slot
+- Darshan ticket booking process
+- Booking confirmation
+- View booking history
+- Organizer dashboard
+- Darshan slot management
+- Booking management
+- Admin dashboard
+- Temple and user management
+- User logout
+
+---
+
+## 🎙️ Voice-Over
+
+The video includes a narrated explanation describing:
+
+- The objective of the project
+- Overview of the DarshanEase platform
+- Navigation through different pages
+- Devotee functionalities
+- Organizer functionalities
+- Administrator functionalities
+- Temple darshan booking workflow
+- Overall system architecture and user experience
+
+The narration is intended to help reviewers understand the implementation without referring to additional documentation.
+
+---
+
+## 📌 Purpose
+
+This demonstration serves as a visual reference for project evaluation and provides a concise overview of the application's features, workflow, and user experience.
+
+The video highlights the complete functionality of the Temple Darshan Ticket Booking System, including user authentication, temple selection, darshan slot booking, booking management, and administrative operations.
 
 ---
 
@@ -14,67 +70,4 @@ https://github.com/YukthaSri-05/my-mern-project.git
 
 ---
 
-## 📷 Screenshot Description
-
-| Screenshot | Description |
-|------------|-------------|
-| **About_DarshanEase.png** | About page introducing the DarshanEase platform, its purpose, and services offered for online temple darshan ticket booking. |
-| **Bookings.png** | Displays the devotee's booking history, including current and previous darshan ticket reservations. |
-| **Contact_Process.png** | Contact page where users can submit queries, feedback, or contact temple administration. |
-| **Create_Darshan.png** | Organizer interface used to create new darshan schedules and manage available booking slots. |
-| **Darshan_Booking.png** | Booking page where devotees select a temple, choose a darshan date and available time slot, and confirm their booking. |
-| **Devotee_Booking.png** | Devotee dashboard displaying booked darshan tickets, booking details, and ticket status. |
-| **Organizers_Admin.png** | Organizer/Admin dashboard for managing temples, devotees, darshan slots, bookings, and system operations. |
-| **Home.png** *(Screenshot (519).png)* | Home page of the DarshanEase application providing navigation to temple information, booking services, and other features. |
-
----
-
-## 🚀 Project Features Demonstrated
-
-- User Registration
-- User Login
-- Browse Temples
-- View Temple Details
-- Select Darshan Slots
-- Book Darshan Tickets
-- View Booking History
-- Devotee Dashboard
-- Organizer Dashboard
-- Admin Dashboard
-- Darshan Slot Management
-- Contact & Feedback
-- Responsive User Interface
-
----
-
-## 🛠️ Technology Stack
-
-### Frontend
-- React.js
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-- Bootstrap
-- Axios
-- React Router DOM
-- Vite
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MongoDB
-- Mongoose
-
----
-
-## 📌 Project Information
-
-**Project:** DarshanEase – MERN Stack Temple Darshan Ticket Booking System
-
-**Domain:** Temple Management & Online Darshan Booking System
-
----
-
-⭐ These screenshots demonstrate the major functionalities of DarshanEase, including temple browsing, darshan slot booking, booking management, organizer operations, and administrative management.
+**Note:** The application demonstrated in this video corresponds to the latest implementation available in this repository.

@@ -1,113 +1,110 @@
-# 🛕 DarshanEase – Temple Darshan Ticket Booking System
+# 🛕 DarshanEase – MERN Stack Temple Darshan Ticket Booking System
 
-DarshanEase is a full-stack web application designed to simplify the process of booking temple darshan tickets online. It provides devotees with a seamless platform to reserve darshan slots, choose preferred time schedules, and manage bookings conveniently from anywhere.
+![React](https://img.shields.io/badge/React-Frontend-blue)
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+![Express](https://img.shields.io/badge/Express.js-API-lightgrey)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-brightgreen)
+![License](https://img.shields.io/badge/License-Educational-orange)
 
-The application eliminates long queues and manual booking processes by offering a secure, user-friendly, and efficient online ticket booking experience.
-
----
-
-## 📖 About the Project
-
-DarshanEase transforms the traditional temple darshan booking process into a digital experience. Users can browse available temples, check darshan slot availability, reserve tickets, and receive instant booking confirmations.
-
-The system aims to improve convenience for devotees while helping temple authorities efficiently manage visitor flow and booking records.
+A Full-Stack MERN Application for Booking Temple Darshan Tickets Online
 
 ---
 
-## ✨ Features
+# 📖 Overview
 
-### 👤 User Features
+DarshanEase is a full-stack Temple Darshan Ticket Booking System developed using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**. The application provides devotees with a secure and convenient platform to book temple darshan tickets online while helping temple organizers efficiently manage bookings and darshan slots.
 
-- User Registration & Login
-- Secure Authentication
+The project demonstrates modern full-stack development concepts including REST APIs, JWT Authentication, MongoDB Atlas integration, role-based access, responsive UI, and deployment.
+
+---
+
+# ✨ Key Features
+
+## 👤 User Module
+
+- User Registration
+- Secure Login Authentication (JWT)
+- User Dashboard
 - Browse Available Temples
-- View Temple Information
+- View Temple Details
 - Select Darshan Date
 - Choose Available Time Slots
 - Book Darshan Tickets
+- Booking Confirmation
 - View Booking History
 - Cancel Bookings
 - Responsive User Interface
 
-### 🛠 Admin Features
+---
 
-- Admin Login
+## 🛠️ Organizer/Admin Module
+
+- Admin Dashboard
 - Manage Temple Details
-- Add/Edit/Delete Temples
-- Manage Darshan Time Slots
+- Add New Temples
+- Update Temple Information
+- Delete Temples
+- Manage Darshan Slots
 - View All Bookings
+- Accept / Reject Bookings
 - Manage Registered Users
-- Dashboard for Booking Statistics
+- Booking Reports
 
 ---
 
-# 🚀 Technology Stack
+# 🛠️ Technology Stack
 
-## Frontend
-
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- React.js *(if used)*
-
-## Backend
-
-- Node.js
-- Express.js
-
-## Database
-
-- MongoDB
-- Mongoose
+| Category | Technologies |
+|-----------|--------------|
+| Frontend | React.js, HTML5, CSS3, JavaScript, Axios, React Router |
+| Backend | Node.js, Express.js |
+| Database | MongoDB Atlas, Mongoose |
+| Authentication | JWT (JSON Web Token) |
+| Deployment | Render |
+| Tools | Git, GitHub, VS Code, Postman |
 
 ---
 
-# 📂 Project Structure
+# 🌐 Live Demo
+
+| Service | URL |
+|----------|-----|
+| 🚀 Live Application | https://my-mern-project-2-l413.onrender.com |
+
+---
+
+# 🔗 Quick Links
+
+| Resource | Link |
+|-----------|------|
+| 🚀 Live Website | https://my-mern-project-2-l413.onrender.com |
+| 📂 GitHub Repository | https://github.com/YukthaSri-05/my-mern-project |
+|🎥 Video Demo | https://drive.google.com/file/d/16TYrig5PP9SRn-mjMWDkq0VuaUz19FKW/view?usp=sharing |
+
+> Add your Backend API URL and Video Demo link once available.
+
+---
+
+# 📂 Repository Structure
 
 ```
-DarshanEase
+my-mern-project
 │
-├── Frontend
-│   ├── CSS
-│   ├── JS
-│   ├── Images
-│   ├── Components
-│   └── Pages
+├── Frontend/                         # React Frontend
 │
-├── Database
-│   ├── Models
-│   ├── Controllers
-│   ├── Routes
-│   ├── Middleware
-│   ├── Config
-│   └── Server.js
+├── Database/                         # Node.js + Express Backend
 │
-├── package.json
+├── Documents/                        # Project Documentation
+│
+├── Project Files/
+│   ├── Application_Screenshots/
+│   ├── Video Demo/
+│   └── Frontend/
+│
+├── Project Documentation.docx
+│
 └── README.md
 ```
-
----
-
-# 🔐 Authentication
-
-- Secure User Login
-- Password Encryption
-- Session Management
-- Protected Routes
-
----
-
-# 📅 Booking Workflow
-
-1. Register/Login
-2. Browse Available Temples
-3. Select Temple
-4. Choose Darshan Date
-5. Select Available Time Slot
-6. Confirm Booking
-7. View Booking Details
-8. Cancel Booking (if applicable)
 
 ---
 
@@ -116,135 +113,147 @@ DarshanEase
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/DarshanEase.git
-
-cd DarshanEase
+git clone https://github.com/YukthaSri-05/my-mern-project.git
 ```
 
 ---
 
-## Install Backend Dependencies
-
-```bash
-cd Database
-
-npm install
-```
-
----
-
-## Configure Environment Variables
-
-Create a `.env` file inside the backend folder.
-
-```env
-PORT=5000
-
-MONGO_URI=your_mongodb_connection_string
-```
-
----
-
-## Start Backend Server
-
-```bash
-npm start
-```
-
-or
-
-```bash
-node server.js
-```
-
----
-
-## Install Frontend Dependencies
+## Install Frontend
 
 ```bash
 cd Frontend
 
 npm install
-```
 
----
-
-## Start Frontend
-
-```bash
 npm start
 ```
 
+Runs on:
+
+```
+http://localhost:3000
+```
+
 ---
 
-# 💻 Tech Highlights
+## Install Backend
 
-- Full Stack Web Application
+```bash
+cd Database
+
+npm install
+
+npm start
+```
+
+Runs on:
+
+```
+http://localhost:5000
+```
+
+---
+
+# 🔐 Authentication
+
+- User Registration
+- Secure JWT Login
+- Protected Routes
+- Role-Based Authorization
+- Password Encryption
+
+---
+
+# 📡 REST API Modules
+
+| Module | Description |
+|----------|-------------|
+| Authentication | User Registration & Login |
+| Temple | Manage Temple Details |
+| Booking | Book & Manage Darshan Tickets |
+| Admin | User & Booking Management |
+
+---
+
+# 📷 Project Resources
+
+| Folder | Description |
+|----------|-------------|
+| 📄 Documents | Project planning, design, architecture, and final report |
+| 📸 Application Screenshots | Complete workflow screenshots |
+| 🎥 Video Demo | Project demonstration video |
+
+---
+
+# 🚀 Deployment
+
+| Component | Platform |
+|------------|----------|
+| Frontend | Render Static Site |
+| Backend | Render Web Service |
+| Database | MongoDB Atlas |
+
+---
+
+# 💡 Future Enhancements
+
+- 💳 Online Payment Gateway
+- 📱 Mobile Application
+- 📧 Email Notifications
+- 📲 SMS Notifications
+- 🌍 Multi-language Support
+- 📊 Analytics Dashboard
+- 🎫 QR Code Based Entry Pass
+- 📈 Booking Statistics
+- 🤖 AI-based Crowd Prediction
+
+---
+
+# 👨‍💻 Team Members
+
+| Name | Role |
+|-------|------|
+| Nunna Yuktha Sri | Team Leader |
+| Suvarna Ratnam Naradala | Team Member |
+| Vamsi Meesala | Team Member |
+| Sayan Kar | Team Member |
+| Deepthi Govvala | Team Member |
+
+---
+
+# 📚 Documentation
+
+Detailed project documentation is available inside the **Documents** folder, including:
+
+- Brainstorming & Ideation
+- Requirement Analysis
+- Project Planning
+- System Design
+- Architecture
+- API Design
+- Database Design
+- Testing
+- Final Project Report
+
+---
+
+# 🎯 Project Highlights
+
+- Full Stack MERN Application
+- JWT Authentication
+- MongoDB Atlas Integration
 - RESTful APIs
-- MongoDB Database Integration
-- Responsive Design
-- Secure Authentication
-- Online Ticket Booking
-- Admin Dashboard
-- Clean MVC Architecture
+- Responsive React UI
+- MVC Architecture
+- Role-Based Access Control
+- Secure Booking Management
+- Render Deployment
 
 ---
 
-# 🎯 Future Enhancements
+# 📜 License
 
-- Online Payment Gateway Integration
-- QR Code Based Entry Pass
-- Email & SMS Notifications
-- Mobile Application
-- Multiple Temple Support
-- Booking Analytics Dashboard
-- Seat/Slot Availability Prediction
-- Multi-language Support
-
----
-
-# 📌 Use Case
-
-DarshanEase helps devotees:
-
-- Avoid long waiting queues.
-- Book darshan tickets anytime and anywhere.
-- Select convenient time slots.
-- Receive instant booking confirmation.
-- Easily manage previous bookings.
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create your feature branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Added new feature"
-```
-
-4. Push to the branch
-
-```bash
-git push origin feature-name
-```
-
-5. Open a Pull Request
-
----
-
-# 📄 License
-
-This project is developed for educational and learning purposes.
+This project was developed for academic and learning purposes.
 
 ---
 
@@ -254,11 +263,18 @@ This project is developed for educational and learning purposes.
 
 🎓 B.Tech – Computer Science & Engineering
 
-💻 Full Stack Developer | Java | MERN Stack | MongoDB | Node.js | Express.js
+💻 Full Stack Developer | Java | MERN Stack | AWS | MongoDB | Node.js | React.js
 
-- GitHub: https://github.com/YukthaSri-05
-- LinkedIn: https://www.linkedin.com/in/yuktha-sri-nunna-8ab671302/
+### GitHub
+
+https://github.com/YukthaSri-05
+
+### LinkedIn
+
+https://www.linkedin.com/in/yuktha-sri-nunna-8ab671302/
 
 ---
 
-⭐ If you like this project, don't forget to **star** the repository!
+⭐ If you found this project useful, consider giving it a **Star**!
+
+Developed with ❤️ using the MERN Stack.
